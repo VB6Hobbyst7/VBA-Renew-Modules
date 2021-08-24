@@ -7,6 +7,14 @@
 
 - 開発テスト環境 OS: Windows 10 Pro
 
+# 説明
+VBAのモジュールの自動更新を行う
+具体的には、ワークブックの起動時に指定のVBAのモジュールを消去&インポートを行うことで自動更新を行うことができる。
+
+## 活用例
+![Github自動更新  活用例](https://user-images.githubusercontent.com/73621859/130538115-aa885901-b45f-4c0c-bbd9-47ddf7f1d7c3.jpg)
+
+
 # 使い方
 
 ## 設定
@@ -35,7 +43,7 @@ Excelの設定でExcel2019の場合「Excelのオプション」→「トラス�
 実行環境など報告していただくと感謝感激雨霰。
 
 
-## 使用例
+## 具体的な使用方法
 
 ### 起動時イベントでの実行（Workbook_Open）
 ![起動時イベント設定](https://user-images.githubusercontent.com/73621859/130537080-ac101693-b4d0-47c6-a4bc-d8313d5a48d7.jpg)
@@ -47,8 +55,4 @@ Excelの設定でExcel2019の場合「Excelのオプション」→「トラス�
 ### 更新するモジュールの設定
 ワークブックの同じフォルダ上に更新対象のモジュールを置いておく
 ![更新モジュールの場所](https://user-images.githubusercontent.com/73621859/130537363-6c1271f4-2a81-46ca-bd8d-119420215ba4.jpg)
-
-### 使用例システム
-
-![Github自動更新](https://user-images.githubusercontent.com/73621859/130537158-fecfebb7-430b-4b89-8bbe-8ec4f0ac4a35.jpg)
 
